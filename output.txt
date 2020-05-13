@@ -1,0 +1,191 @@
+thufir@dur:~$ 
+thufir@dur:~$ telnet rainmaker.wunderground.com
+Trying 35.160.169.47...
+Connected to rainmaker.wunderground.com.
+Escape character is '^]'.
+------------------------------------------------------------------------------
+*               Welcome to THE WEATHER UNDERGROUND telnet service!            *
+------------------------------------------------------------------------------
+*                                                                            *
+*   National Weather Service information provided by Alden Electronics, Inc. *
+*    and updated each minute as reports come in over our data feed.          *
+*                                                                            *
+*   **Note: If you cannot get past this opening screen, you must use a       *
+*   different version of the "telnet" program--some of the ones for IBM      *
+*   compatible PC's have a bug that prevents proper connection.              *
+*                                                                            *
+*           comments: jmasters@wunderground.com                              *
+------------------------------------------------------------------------------
+
+Press Return to continue:
+
+Press Return for menu
+or enter 3 letter forecast city code-- 
+
+                 WEATHER UNDERGROUND MAIN MENU
+                ******************************
+                 1) U.S. forecasts and climate data
+                 2) Canadian forecasts
+                 3) Current weather observations
+                 4) Ski conditions
+                 5) Long-range forecasts
+                 6) Latest earthquake reports
+                 7) Severe weather
+                 8) Hurricane advisories
+                 9) Weather summary for the past month
+                10) International data
+                11) Marine forecasts and observations
+                12) Ultraviolet light forecast
+                 X) Exit program
+                 C) Change scrolling to screen
+                 H) Help and information for new users
+                 ?) Answers to all your questions
+                   Selection:1
+
+                         CITY FORECAST MENU
+                ---------------------------------------------------
+                1) Print forecast for selected city
+                2) Print climatic data for selected city
+                3) Display 3-letter city codes for a selected state
+                4) Display all 2-letter state codes
+                M) Return to main menu
+                X) Exit program
+                ?) Help
+                   Selection:1
+
+          Enter 3-letter city code: nyc
+Weather Conditions at 03:51 AM EDT on 13 May 2020 for New York JFK, NY.
+Temp(F)    Humidity(%)    Wind(mph)    Pressure(in)    Weather
+========================================================================
+  44          45%         NW at 12       30.24      Clear
+
+Forecast for New York, NY
+522 am EDT Wed may 13 2020
+
+.Today...Sunny. Highs in the lower 60s. West winds 5 to 10 mph.
+Gusts up to 20 mph this afternoon. 
+.Tonight...Mostly clear. Lows in the upper 40s. Northwest winds
+5 to 10 mph. Gusts up to 20 mph in the evening. 
+.Thursday...Mostly sunny. Highs in the mid 60s. North winds
+around 5 mph, becoming south with gusts up to 20 mph in the
+afternoon. 
+.Thursday night...Mostly cloudy with a 50 percent chance of
+showers. Lows in the mid 50s. South winds 5 to 10 mph. Gusts up
+to 20 mph in the evening. 
+.Friday...Partly sunny with a 50 percent chance of showers. Highs
+in the upper 70s. Southwest winds 10 to 15 mph with gusts up to
+30 mph. 
+.Friday night...Mostly cloudy with showers likely with a chance
+of thunderstorms in the evening, then partly cloudy with a chance
+   Press Return to continue, M to return to menu, X to exit: 
+of showers after midnight. Lows around 60. Chance of rain
+60 percent. 
+.Saturday...Mostly sunny. Highs in the mid 70s. 
+.Saturday night...Partly cloudy in the evening, then becoming
+mostly cloudy. Lows in the mid 50s. 
+.Sunday...Mostly cloudy. A chance of showers in the afternoon.
+Highs in the mid 60s. Chance of rain 30 percent. 
+.Sunday night...Mostly cloudy with a 50 percent chance of
+showers. Lows in the mid 50s. 
+.Monday...Partly sunny with a 50 percent chance of showers. Highs
+in the upper 60s. 
+.Monday night...Mostly cloudy with a 30 percent chance of
+showers. Lows in the mid 50s. 
+.Tuesday...Mostly sunny. Highs in the upper 60s. 
+
+
+  Press Return for menu: 
+
+                         CITY FORECAST MENU
+                ---------------------------------------------------
+                1) Print forecast for selected city
+                2) Print climatic data for selected city
+                3) Display 3-letter city codes for a selected state
+                4) Display all 2-letter state codes
+                M) Return to main menu
+                X) Exit program
+                ?) Help
+                   Selection:1
+
+          Enter 3-letter city code: lax
+Weather Conditions at 01:52 AM PDT on 13 May 2020 for Los Angeles Downtown, CA.
+Temp(F)    Humidity(%)    Wind(mph)    Pressure(in)    Weather
+========================================================================
+  61          64%         NORTH at 0       29.97      Clear
+Forecast for Downtown Los Angeles, CA
+218 PM PDT Tue may 12 2020
+
+.Tonight...Mostly cloudy. Lows in the mid to upper 50s. Southwest
+winds around 15 mph in the evening. 
+.Wednesday...Mostly cloudy in the morning then sunny. Highs in
+the mid 60s to mid 70s. 
+.Wednesday night...Clear early then low clouds and fog. Lows in
+the mid 50s to around 60. Southwest winds around 15 mph in the
+evening. 
+.Thursday...Low clouds and fog in the morning then sunny. Highs
+from the upper 60s at the beaches to the upper 70s inland.
+Southwest winds around 15 mph in the afternoon. 
+.Thursday night...Clear early then low clouds and fog. Lows
+around 60. Southwest winds around 15 mph in the evening. 
+.Friday...Low clouds and fog in the morning then sunny. Highs
+from around 70 at the beaches to around 80 inland. 
+.Friday night...Clear. Lows around 60. 
+.Saturday...Partly cloudy. Highs from around 70 at the beaches to
+   Press Return to continue, M to return to menu, X to exit: 
+around 80 inland. 
+.Saturday night...Partly cloudy in the evening then mostly
+cloudy. Lows around 60. 
+.Sunday...Mostly cloudy in the morning then partly cloudy. Highs
+from around 70 at the beaches to the mid to upper 70s inland. 
+.Sunday night...Partly cloudy in the evening then mostly cloudy.
+Lows around 60. 
+.Monday...Mostly cloudy in the morning then partly cloudy. Highs
+from the mid 60s to around 70 at the beaches to the mid 70s
+inland. 
+.Monday night...Partly cloudy in the evening then mostly clear.
+Lows in the mid to upper 50s. 
+.Tuesday...Sunny. Highs from the mid 60s at the beaches to the
+mid 70s inland. 
+
+
+  Press Return for menu: 
+
+                         CITY FORECAST MENU
+                ---------------------------------------------------
+                1) Print forecast for selected city
+                2) Print climatic data for selected city
+                3) Display 3-letter city codes for a selected state
+                4) Display all 2-letter state codes
+                M) Return to main menu
+                X) Exit program
+                ?) Help
+                   Selection:1
+
+          Enter 3-letter city code: chi
+Weather Conditions at 03:51 AM CDT on 13 May 2020 for Chicago, IL.
+Temp(F)    Humidity(%)    Wind(mph)    Pressure(in)    Weather
+========================================================================
+  44          49%         ESE at 6       30.24      Partly Cloudy
+
+Forecast for Chicago, IL
+403 am CST Fri Jan 17 2020
+
+...Winter Weather Advisory in effect from 5 PM this afternoon to
+6 am CST Saturday...
+
+.Today...Cloudy. Light snow likely in the afternoon. Snow
+accumulation up to 1 inch. Highs around 30. Southeast winds 10 to
+20 mph. Chance of precipitation 70 percent. 
+.Tonight...Windy. Snow in the evening, becoming a mix of snow,
+sleet and freezing rain after midnight, and eventually changing to
+light rain by morning. Snow and sleet accumulation of 2 to 4 
+inches. Total snow accumulation 2 to 5 inches. Ice accumulation up
+to one tenth of an inch. Lows in the upper 20s, then temperatures
+becoming steady or slowly rising. Southeast winds 15 to 25 mph 
+with gusts up to 30 mph inland...but southeast 20 to 30 mph with 
+gusts up to 35 mph near the lake. Chance of precipitation 100 
+percent. 
+   Press Return to continue, M to return to menu, X to exit: x
+Connection closed by foreign host.
+thufir@dur:~$ 
+
