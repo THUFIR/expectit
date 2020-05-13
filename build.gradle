@@ -27,6 +27,8 @@ dependencies {
 
     // Use TestNG framework, also requires calling test.useTestNG() below
     testImplementation 'org.testng:testng:7.0.0'
+
+    implementation 'net.sf.expectit:expectit-core:0.9.0'
 }
 
 application {
