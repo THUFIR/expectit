@@ -17,37 +17,6 @@ public class App {
     private final static Logger log = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) throws IOException {
-      //  new App().telnet();
-      Inf i = new Inf();
-      i.foo();
+        new Triple().telnet();
     }
-
-    private void telnet() throws IOException {
-      
-        
-        Process process = Runtime.getRuntime().exec("telnet rainmaker.wunderground.com");
-
-        StringBuilder wholeBuffer = new StringBuilder();
-        net.sf.expectit.Expect expect = new net.sf.expectit.ExpectBuilder()
-                .withOutput(process.getOutputStream())
-                .withInputs(process.getInputStream())
-                .withEchoOutput(wholeBuffer)
-                .withEchoInput(wholeBuffer)
-                .withExceptionOnFailure()
-                .build();
-
-        expect.expect(contains("Press Return to continue"));
-        expect.sendLine();
-        expect.expect(contains("forecast city code--"));
-        expect.sendLine("nyc");
-        expect.expect(contains("X to exit:"));
-        expect.sendLine();
-
-        String response = wholeBuffer.toString();
-        System.out.println(response);
-
-        expect.close();
-
-    }
-
 }
