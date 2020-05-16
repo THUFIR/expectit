@@ -8,6 +8,7 @@ import static java.lang.System.exit;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -25,7 +26,7 @@ public class Triple {
         cities.add("chi");
     }
 
-    private void foo( net.sf.expectit.Expect expect) throws IOException {
+    private void foo(net.sf.expectit.Expect expect, String city) throws IOException {
         expect.expect(contains("Press Return to continue"));
         expect.sendLine("m");
 
@@ -33,7 +34,7 @@ public class Triple {
         expect.sendLine("1");
 
         expect.expect(contains("Enter 3-letter city code:"));
-        expect.sendLine(cities.remove().toString());
+        expect.sendLine(city.toUpperCase());
     }
 
     void telnet() throws IOException {
@@ -55,24 +56,14 @@ public class Triple {
         expect.sendLine(cities.remove().toString());
 
         ////////////////
-        expect.expect(contains("Press Return to continue"));
-        expect.sendLine("m");
-
-        expect.expect(contains("Selection:"));
-        expect.sendLine("1");
-
-        expect.expect(contains("Enter 3-letter city code:"));
-        expect.sendLine(cities.remove().toString());
-
-        /////
-        expect.expect(contains("Press Return to continue"));
-        expect.sendLine("m");
-
-        expect.expect(contains("Selection:"));
-        expect.sendLine("1");
-
-        expect.expect(contains("Enter 3-letter city code:"));
-        expect.sendLine(cities.remove().toString());
+        //access via Iterator
+        String city = null;
+        Iterator<String> iterator = cities.iterator();
+        while (iterator.hasNext())   {
+            city = iterator.next().toString();
+            foo(expect, city);
+            foo(expect, city);
+        }
 
         /////
         expect.expect(contains("Press Return to continue"));
